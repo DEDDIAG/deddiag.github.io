@@ -1,7 +1,6 @@
 ---
 layout: home
 ---
-
 Domestic Energy Collection System is an open source monitoring system designed to
 collect single appliance and main level energy data of domestic homes for ILM and NILM related research.
 Households send data each hour to a central server over an encrypted internet connection
