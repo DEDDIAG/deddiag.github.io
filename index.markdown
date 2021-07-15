@@ -5,7 +5,10 @@ Domestic Energy Collection System is an open source monitoring system designed t
 collect single appliance and main level energy data of domestic homes for ILM and NILM related research.
 Households send data each hour to a central server over an encrypted internet connection
 where the electricity data can be visualized and accessed in a central PostgreSQL database.
-This system was used to collect the DEDDIAG dataset.
+This system was used to collect the DEDDIAG dataset, which is available for download:
+
+* Scientific Publication: [Nature Scientific Data](https://doi.org/10.1038/s41597-021-00963-2)
+* Dataset Download: [Figshare](https://doi.org/10.6084/m9.figshare.13615073)
 
 ![](https://raw.githubusercontent.com/DEDDIAG/energy-server/master/docs/client-server.png)
 
@@ -14,6 +17,7 @@ The collection system was built with a focus on recording data for a user behavi
 • easily shiftable load,
 • significant energy consumption,
 • standard power plug.
+
 
 ## Home-/Client-Side
 The client software is available on GitHub at [bbox](https://github.com/DEDDIAG/bbox)
@@ -66,3 +70,22 @@ The energy-server provides a responsive UI that shows an overview of all houses,
 | House Details | Charts | Annotation Tool |
 | --- | --- | --- |
 |![](https://raw.githubusercontent.com/DEDDIAG/energy-server/master/docs/img/ui-2.png)|![](https://raw.githubusercontent.com/DEDDIAG/energy-server/master/docs/img/ui-3.png)|![](https://raw.githubusercontent.com/DEDDIAG/energy-server/master/docs/img/ui-4.png)|
+
+
+## Citation
+When using the dataset in academic work please cite [this paper](https://doi.org/10.1038/s41597-021-00963-2) as the reference.
+{% raw %}
+```
+@article{DEDDIAG_2021,
+  author = {Marc Wenninger and Andreas Maier and Jochen Schmidt},
+  title = {{DEDDIAG}, a domestic electricity demand dataset of individual appliances in Germany},
+  year = {2021},
+  month = jul,
+  volume = {8},
+  number = {1},
+  journal = {Scientific Data},
+  doi = {https://doi.org/10.1038/s41597-021-00963-2},
+  url = {https://rdcu.be/coGqL},
+}
+```
+{% endraw %}
